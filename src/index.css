@@ -5,11 +5,7 @@
 @tailwind utilities;
 
 @layer base {
-	html {
-		@apply scroll-smooth;
-	}
-
 	body {
-		@apply font-ubuntu text-blue-800 antialiased;
+		@apply font-ubuntu;
 	}
 }
